@@ -1,3 +1,5 @@
+# csc344-Project2
+
 Write an OCaml program that performs pattern matching on strings, where patterns are expressed using only the concatenation, alternation (“|”), and optional (“?”) operators of regular expressions (no loops/”*”, no escape characters), and the tokens are letters and digits, plus period (“.”) to mean any letter. Each run of the program should accept a pattern, and then any number of strings, reporting only whether they match. Your program should represent expressions as trees and evaluate on the inputs, without using any regular expressions or OCaml’s regular expression libraries except for matching the individual alphanumeric characters, if you’d like. For example:
     
     pattern? ((h|j)ell. worl?d)|(42)
